@@ -1,6 +1,6 @@
 
 body {
-    transform: scale(0.65);
+    transform: scale(0.6);
     transform-origin: 0 0;
 
     // add prefixed versions too.
@@ -61,12 +61,7 @@ main{
     width: 400px;
     left: 1000px;
     top: 40px;
-
-    
 }
-
-
-
 
 .mensaje:focus{
     outline: none;
@@ -135,6 +130,15 @@ main{
    font-size: 18px;
 }
 
-@media (min-width:1281px) { 
-    /* hi-res laptops and desktops */ 
-    }
+footer{
+    transform: scale(0.6);
+    transform-origin: 0 0;
+    text-align: center;
+    /*background-color: #a2a8d3;*/
+    padding: 1em;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 1em;
+    /*align-self: stretch;*/
+    align-self: center;
+  }
